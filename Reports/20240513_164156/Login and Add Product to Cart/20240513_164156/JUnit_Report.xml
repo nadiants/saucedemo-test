@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login and Add Product to Cart" time="20.514" tests="2" failures="0" errors="0">
+   <testsuite name="Login and Add Product to Cart" tests="2" failures="0" errors="0" time="20.514" skipped="0" timestamp="13-05-2024T16:42:04" hostname="nadia.natasa - ID-LTP-AFI-0116.al.com" id="Test Suites/Login and Add Product to Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nadia.natasa\\git\\saucedemo-test\\Reports\\20240513_164156\\Login and Add Product to Cart\\20240513_164156"/>
+         <property name="logFiles" value="C:\\Users\\nadia.natasa\\git\\saucedemo-test\\Reports\\20240513_164156\\Login and Add Product to Cart\\20240513_164156\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nadia.natasa - ID-LTP-AFI-0116.al.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="10.2.14.195"/>
+         <property name="sessionId" value="0663298f0b57219fb7c21921e732d758"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Success Login" time="9.849" classname="Test Cases/Success Login" status="PASSED">
+         <system-out><![CDATA[13-05-2024T16:42:04 - [TEST_CASE][PASSED] - Test Cases/Success Login: Test Cases/Success Login
+
+13-05-2024T16:42:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-05-2024T16:42:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-05-2024T16:42:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-05-2024T16:42:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-05-2024T16:42:08 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+13-05-2024T16:42:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+13-05-2024T16:42:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Swag Labs_user-name"), username): Text 'standard_user' is set on object 'Object Repository/Login/input_Swag Labs_user-name'
+
+13-05-2024T16:42:12 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_Swag Labs_user-name'
+
+13-05-2024T16:42:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login/input_Swag Labs_password'
+
+13-05-2024T16:42:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Swag Labs_password'
+
+13-05-2024T16:42:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_Swag Labs_login-button")): Object: 'Object Repository/Login/input_Swag Labs_login-button' is clicked on
+
+13-05-2024T16:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_Swag Labs_login-button' is clicked on
+
+13-05-2024T16:42:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/div_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/Login/div_Swag Labs' are matched.
+
+13-05-2024T16:42:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/div_Swag Labs' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Success Add Product to Cart by Product List Page" time="10.394" classname="Test Cases/Success Add Product to Cart by Product List Page" status="PASSED">
+         <system-out><![CDATA[13-05-2024T16:42:14 - [TEST_CASE][PASSED] - Test Cases/Success Add Product to Cart by Product List Page: Test Cases/Success Add Product to Cart by Product List Page
+
+13-05-2024T16:42:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Success Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Success Login' successfully
+
+13-05-2024T16:42:15 - [TEST_CASE][PASSED] - Test Cases/Success Login: Test Cases/Success Login
+
+13-05-2024T16:42:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-05-2024T16:42:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-05-2024T16:42:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-05-2024T16:42:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-05-2024T16:42:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-05-2024T16:42:17 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://www.saucedemo.com/' successfully
+
+13-05-2024T16:42:19 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+13-05-2024T16:42:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Swag Labs_user-name"), username): Text 'standard_user' is set on object 'Object Repository/Login/input_Swag Labs_user-name'
+
+13-05-2024T16:42:22 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_Swag Labs_user-name'
+
+13-05-2024T16:42:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login/input_Swag Labs_password'
+
+13-05-2024T16:42:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Swag Labs_password'
+
+13-05-2024T16:42:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/input_Swag Labs_login-button")): Object: 'Object Repository/Login/input_Swag Labs_login-button' is clicked on
+
+13-05-2024T16:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_Swag Labs_login-button' is clicked on
+
+13-05-2024T16:42:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/div_Swag Labs"), "Swag Labs"): Actual text and expected text of test object 'Object Repository/Login/div_Swag Labs' are matched.
+
+13-05-2024T16:42:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/div_Swag Labs' are matched.
+
+13-05-2024T16:42:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Success Login' successfully
+
+13-05-2024T16:42:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/button_Add to cart")): Object: 'Object Repository/Checkout/button_Add to cart' is clicked on
+
+13-05-2024T16:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_Add to cart' is clicked on
+
+13-05-2024T16:42:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Product List/span_1")): Object 'Object Repository/Product List/span_1' is visible
+
+13-05-2024T16:42:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Product List/span_1'. Try using Self-healing.
+
+13-05-2024T16:42:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Product List/span_1' was broken. Propose an alternative one: '//div[@id='shopping_cart_container']/a/span'.
+
+13-05-2024T16:42:24 - [MESSAGE][PASSED] - Object 'Object Repository/Product List/span_1' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-05-2024T16:42:04 - [TEST_SUITE][PASSED] - Login and Add Product to Cart: Test Cases/Success Add Product to Cart by Product List Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

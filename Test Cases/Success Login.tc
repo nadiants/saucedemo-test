@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Successfully</description>
+   <name>Success Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4270ae23-6f1f-4f98-849e-9c0e3d92876a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>715f3bf2-71ab-4121-9e9f-ef2b86529e5d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56f99a17-15eb-4d00-83c2-102abe7ecff6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>715f3bf2-71ab-4121-9e9f-ef2b86529e5d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>56f99a17-15eb-4d00-83c2-102abe7ecff6</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>
